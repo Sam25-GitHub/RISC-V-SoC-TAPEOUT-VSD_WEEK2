@@ -94,7 +94,7 @@ It validates **system logic and dataflow** before fabrication or synthesis.
 
 ## 🧪 6. Simulation Workflow
 
-### **Step 1: Compile Verilog Files**
+### **Step 1: Compile Verilog Files** can be done as
 ```bash
 $ iverilog -o output.vvp top_module.v submodule1.v submodule2.v testbench.v
 
