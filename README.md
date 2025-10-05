@@ -4,7 +4,7 @@
 # 🧩 BabySoC Functional Modelling Project
 
 ### 🎯 Objective
-To build a solid understanding of **System-on-Chip (SoC)** fundamentals and practice **functional modelling** of the **BabySoC** using simulation tools **Icarus Verilog** and **GTKWave**.
+To build a solid understanding of **System-on-Chip (SoC)** fundamentals and practice **functional modelling** of the **BabySoC** 
 
 ---
 
