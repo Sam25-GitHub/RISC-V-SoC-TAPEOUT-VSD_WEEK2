@@ -50,6 +50,12 @@ Connects all functional units for efficient data transfer:
 3. **Digital-to-Analog Converter (DAC) (Analog)**  
    - Converts **10-bit digital output** from RVMYTH into analog signals (e.g., audio, voltage waveform).
 
+---
+# reference - 
+ https://github.com/hemanthkumardm/SFAL-VSD-SoC-Journey/tree/main/12.%20VSDBabySoC%20Project
+
+---
+
 ### **Why BabySoC?**
 - Simplified architecture for **educational understanding**.  
 - Open-source **RISC-V architecture** — ideal for academic and hobbyist learning.  
