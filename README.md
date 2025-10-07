@@ -104,3 +104,11 @@ It validates **system logic and dataflow** before fabrication or synthesis.
 ```bash
 $ iverilog -o output.vvp top_module.v submodule1.v submodule2.v testbench.v
 
+to check rvmyth:
+
+git clone https://github.com/kunalg123/rvmyth/
+cd rvmyth
+iverilog mythcore_test.v tb_mythcore_test.v
+./a.out
+gtkwave tb_mythcore_test.vcd
+
