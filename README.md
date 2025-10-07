@@ -51,7 +51,7 @@ Connects all functional units for efficient data transfer:
    - Converts **10-bit digital output** from RVMYTH into analog signals (e.g., audio, voltage waveform).
 
 ---
-# reference - 
+ Reference - 
  https://github.com/hemanthkumardm/SFAL-VSD-SoC-Journey/tree/main/12.%20VSDBabySoC%20Project
 
 ---
