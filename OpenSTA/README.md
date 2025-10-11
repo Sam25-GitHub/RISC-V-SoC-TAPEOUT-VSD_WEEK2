@@ -31,7 +31,10 @@ report_checks -path_delay min_max -fields {slew capacitance input_pins nets fano
 ```
 # 6️⃣ Optionally, report timing summary metrics
 # Useful to quickly identify worst-case slack, skew, and setup violations
+
+```
 report_tns         ;# Total Negative Slack
 report_wns         ;# Worst Negative Slack
 report_clock_skew  ;# Clock Skew Analysis
+```
 
