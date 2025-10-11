@@ -52,5 +52,30 @@ GLS ensures that after synthesis:
 
 1. **Generate the Synthesized Netlist**
    ```bash
-yosys
+   yosys
+   read_verilog /home/VSDBabySoC/src/module/vsdbabysoc.v
+   read_verilog -I /home/VSDBabySoC/src/include /home/VSDBabySoC/src/module/rvmyth.v
+   read_verilog -I /home/VSDBabySoC/src/include /home/VSDBabySoC/src/module/clk_gate.v
+
+   liberty files for synthesis:
+   read_liberty -lib /home/VSDBabySoC/src/lib/avsdpll.lib
+   read_liberty -lib /home/VSDBabySoC/src/lib/avsddac.lib
+   read_liberty -lib /home/VSDBabySoC/src/lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+
+   Run synthesis:
+   synth -top vsdbabysoc
+
+   mapping library and technology mapping:
+
+   dfflibmap -liberty /home/VSDBabySoC/src/lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+   opt
+   abc -liberty /home/VSDBabySoC/src/lib/sky130_fd_sc_hd__tt_025C_1v80.lib -script +strash;scorr;ifraig;retime;{D};strash;dch,-f;map,-M,1,{D}
+
+   flatten
+   setundef -zero
+   clean -purge
+   rename -enumerate
+   
+   stat
+   
    
