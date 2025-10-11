@@ -77,5 +77,10 @@ GLS ensures that after synthesis:
    rename -enumerate
    
    stat
+
+   ```
+
+   ![image_alt](https://github.com/Sam25-GitHub/RISC-V-SoC-TAPEOUT-VSD_WEEK2/blob/main/Post_synth/RVMYTH_DAC.jpg?raw=true)
+   ![image_alt](https://github.com/Sam25-GitHub/RISC-V-SoC-TAPEOUT-VSD_WEEK2/blob/main/Post_synth/post_synth_4.jpg?raw=true)
    
    
