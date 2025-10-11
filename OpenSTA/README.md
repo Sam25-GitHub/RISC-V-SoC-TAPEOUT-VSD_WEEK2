@@ -1,8 +1,3 @@
-# OpenSTA Post-Synthesis Timing Analysis Script for VSDBabySoC
-# Author: [Your Name]
-# Date: [2025-10-11]
-# Description: This script reads Liberty libraries, synthesized netlist,
-# links the design, applies timing constraints, and generates timing reports.
 
 # 1️⃣ Read Liberty libraries (standard cells + analog macro models)
 # These provide the timing, power, and functional data for STA analysis
